@@ -1,0 +1,6 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0099.jpg,xe bị cắt ở góc dưới phải (chỉ còn đuôi và đèn hậu),accepted,Khung AI ôm sát phần thân còn nhìn thấy, giữ nguyên theo quy tắc chỉ khoanh phần nhìn thấy
+1,frame_0107.jpg,vệt sáng đèn pha trên mặt đường bên trái,accepted,Không có khung nào bao vệt sáng này, AI đã bỏ qua đúng vì đó là ánh đèn không phải xe
+1,frame_0182.jpg,xe tối gần mép trái ảnh,accepted,Khung AI đã ôm sát thân xe kể cả gương chiếu hậu, không cần kéo thêm
+1,frame_0331.jpg,hai xe sát nhau ở giữa ảnh,accepted,AI vẽ hai khung riêng biệt đúng theo quy tắc hai xe sát nhau phải có hai khung
+1,frame_0369.jpg,xe rất xa gần chân cầu chỉ còn hai chấm đèn,accepted,Giữ nguyên khung AI vì xe nhỏ dạng hai chấm đèn được phép khoanh hoặc bỏ
